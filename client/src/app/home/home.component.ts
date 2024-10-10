@@ -16,6 +16,6 @@ export class HomeComponent {
 
     // Method to navigate to the Upload page
     navigateToUpload() {
-        this.router.navigate(['/upload']); 
+        this.router.navigate(['/video-upload']); 
     }
 }
