@@ -1,0 +1,19 @@
+@import '@angular/material/prebuilt-themes/azure-blue.css';
+
+
+html, body { 
+    height: 100%; 
+}
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+/* Add a style to test */
+h1, p { 
+    color: rgb(255, 0, 132); /* This will make all <h1> and <p> elements blue */
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

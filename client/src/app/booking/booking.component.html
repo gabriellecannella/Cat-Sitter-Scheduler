@@ -1,0 +1,30 @@
+<div class="booking-page-container">
+    <div class="booking-card">
+        <h1>Book Your Cat Sitting Service</h1>
+        <p>Fill out the form to schedule your appointment</p>
+
+        <!-- Name Input -->
+        <div class="input-group">
+            <label for="name">Your Name</label>
+            <input id="name" type="text" placeholder="Enter your name" />
+        </div>
+
+        <!-- Date Input -->
+        <div class="input-group">
+            <label for="date">Preferred Date</label>
+            <input id="date" type="date" />
+        </div>
+
+        <!-- Special Requests Input -->
+        <div class="input-group">
+            <label for="special-requests">Special Requests</label>
+            <textarea id="special-requests" placeholder="Any special instructions"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button class="submit-button">Submit Booking</button>
+
+        <!-- Back to Home Button -->
+        <button class="back-button" (click)="goHome()">Back to Home</button>
+    </div>
+</div>
