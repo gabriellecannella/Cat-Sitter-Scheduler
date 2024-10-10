@@ -1,8 +1,23 @@
 <div class="home-container">
-    <h1>Welcome to Cat Sitter Scheduler</h1>
-    <p>Book your cat sitting services easily and conveniently!</p>
-    <div class="button-container">
-        <button mat-raised-button color="primary" (click)="navigateTo('/booking')">Book Now</button>
-        <button mat-raised-button color="accent" (click)="navigateTo('/video-upload')">Upload A Video</button>
+    <header class="header">
+        <h1>Welcome to Cat Services!</h1>
+        <p>Your one-stop solution for all your cat care needs</p>
+    </header>
+
+    <div class="features-container">
+        <div class="feature-card">
+            <h2>Book a Cat Sitting Service</h2>
+            <p>Schedule a visit for your feline friends.</p>
+            <button (click)="navigateToBooking()" class="feature-button">Book Now</button>
+        </div>
+        <div class="feature-card">
+            <h2>Upload a Video</h2>
+            <p>Share your cat's adorable moments with us.</p>
+            <button (click)="navigateToUpload()" class="feature-button">Upload Now</button>
+        </div>
     </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Cat Services. All Rights Reserved.</p>
+    </footer>
 </div>
