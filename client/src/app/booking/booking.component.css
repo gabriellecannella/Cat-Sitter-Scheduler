@@ -1,68 +1,78 @@
-/* Center the card and add padding */
 .booking-page-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    max-width: 600px; /* Match max width of upload */
+    margin: 0 auto; /* Center the card */
     padding: 20px;
-    background-color: #f5f5f5; /* Light grey background */
-}
-
-/* Style for the booking card */
-.booking-card {
-    width: 400px;
-    padding: 20px;
-    border: 1px solid #ccc; /* Simple border */
+    border: 1px solid #ccc; /* Light border */
     border-radius: 8px; /* Rounded corners */
-    background-color: white; /* Card background */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; /* White background */
 }
 
-/* Make form fields full-width */
+h1 {
+    text-align: center; /* Center the title */
+    color: #333; /* Dark text color */
+}
+
+p {
+    text-align: center; /* Center the description */
+    color: #555; /* Slightly lighter text */
+}
+
 .input-group {
-    width: 100%;
-    margin-bottom: 16px; /* Add space between input fields */
+    display: flex;
+    flex-direction: column; /* Align label and input vertically */
+    margin-bottom: 15px; /* Space between input groups */
 }
 
-.input-group label {
-    display: block; /* Ensure the label is on its own line */
-    margin-bottom: 4px; /* Space between label and input */
+label {
+    margin-bottom: 5px; /* Space between label and input */
 }
 
-.input-group input, 
-.input-group textarea {
-    width: 100%;
-    padding: 8px; /* Add padding to inputs */
-    border: 1px solid #ccc; /* Simple border */
+input[type="text"],
+input[type="date"],
+textarea {
+    padding: 10px; /* Padding inside the inputs */
+    border: 1px solid #ccc; /* Light border */
     border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width calculation */
 }
 
-/* Style for the submit button */
+textarea {
+    resize: none; /* Prevent manual resizing */
+    height: 100px; /* Set a fixed height */
+}
+
 .submit-button {
-    width: 100%;
-    padding: 10px;
-    background-color: blue; /* Button color */
-    color: white; /* Text color */
-    border: none;
-    border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Change cursor on hover */
+    background-color: #007bff; /* Blue color */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 10px; /* Space above */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width */
 }
 
 .submit-button:hover {
-    background-color: darkblue; /* Darker shade on hover */
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 .back-button {
-    width: 100%;
-    padding: 10px;
-    background-color: grey; /* Button color */
-    color: white; /* Text color */
-    border: none;
-    border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Change cursor on hover */
-    margin-top: 10px; /* Space above the button */
+    background-color: #808080; /* Grey color */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 10px; /* Space above */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width */
 }
 
 .back-button:hover {
-    background-color: darkgrey; /* Darker shade on hover */
+    background-color: #666666; /* Darker grey on hover */
 }

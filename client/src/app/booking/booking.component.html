@@ -18,11 +18,11 @@
         <!-- Special Requests Input -->
         <div class="input-group">
             <label for="special-requests">Special Requests</label>
-            <textarea id="special-requests" placeholder="Any special instructions"></textarea>
+            <textarea id="special-requests" rows="4" placeholder="Any special instructions"></textarea>
         </div>
 
         <!-- Submit Button -->
-        <button class="submit-button">Submit Booking</button>
+        <button class="submit-button" (click)="submitBooking()">Submit Booking</button>
 
         <!-- Back to Home Button -->
         <button class="back-button" (click)="goHome()">Back to Home</button>

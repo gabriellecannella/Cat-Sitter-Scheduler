@@ -1,19 +1,28 @@
 @import '@angular/material/prebuilt-themes/azure-blue.css';
 
 
-html, body { 
-    height: 100%; 
-}
+/* styles.css or styles.scss */
 
-body { 
+body {
+    background-image: url('./assets/global_background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     margin: 0; 
-    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
 }
 
-/* Add a style to test */
-h1, p { 
-    color: rgb(255, 0, 132); /* This will make all <h1> and <p> elements blue */
+
+.upload-container {
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.8); /* Slightly transparent white border */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8); 
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
