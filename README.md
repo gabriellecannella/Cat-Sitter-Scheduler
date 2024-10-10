@@ -46,3 +46,12 @@ Before you begin, ensure you have met the following requirements:
 6. Open your web browser and navigate to:
    
    http://localhost:4200
+
+   ## Step-by-Step Guide to View Your Running Server
+
+### 1. Start Your Server
+Make sure your Node.js server is running. In your terminal or PowerShell, you can start the server by running:
+
+```bash
+node server.js
+
