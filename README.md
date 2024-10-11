@@ -1,3 +1,5 @@
+<img width="678" alt="image" src="https://github.com/user-attachments/assets/61a5a81c-337a-4189-9c2b-9f94d3b510ac">
+
 # Cat Sitting Service Booking App
 
 ## Description
