@@ -20,6 +20,8 @@ This is a web application that allows users to book cat sitting services. Users 
 
 Before you begin, ensure you have met the following requirements:
 
+Please make sure to have the **latest** versions of Node.js and npm installed
+
 - You have **Node.js** and **npm** installed on your machine.
 - You have a code editor like **Visual Studio Code** installed.
 
